@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conwell Daily - Smarter Business Decisions in 5 Minutes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-gray-900">Conwell</div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-blue-600 font-medium">Home</a>
+                    <a href="newsletter.html" class="text-gray-700 hover:text-blue-600 font-medium">Newsletter</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Academy</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Entrepreneur</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                Conwell Daily — Smarter Business<br>Decisions in 5 Minutes
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-blue-100 max-w-3xl mx-auto">
+                Newsletter. Academy. Advisory. Everything you need to grow your startup in one place.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                    Subscribe to Newsletter
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                    Explore Academy
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                    Book Expert Call
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Conwell -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">About Conwell</h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                Conwell Digital is your founder co-pilot—delivering insights, education, and guidance for startup builders. We combine actionable newsletters, comprehensive courses, and personalized advisory to accelerate your entrepreneurial journey.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <button class="flex items-center gap-3 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                    </svg>
+                    Watch Our Story
+                </button>
+                <div class="text-gray-600 font-medium">
+                    Trusted by <span class="text-blue-600 font-bold">10,000+</span> founders
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Core Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Newsletter</h3>
+                    <p class="text-gray-600 mb-6">Smarter business in 5 minutes a day.</p>
+                    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                        Subscribe Now
+                    </button>
+                </div>
+
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Academy</h3>
+                    <p class="text-gray-600 mb-6">Real startup education. Zero fluff.</p>
+                    <button class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-medium">
+                        Browse Courses
+                    </button>
+                </div>
+
+                <div class="text-center p-8 bg-white rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Entrepreneur Advisory</h3>
+                    <p class="text-gray-600 mb-6">Talk to experienced operators 1:1.</p>
+                    <button class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-medium">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Highlights -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Product Highlights</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md text-center card-hover">
+                    <div class="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">☕</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Mug</h3>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md text-center card-hover">
+                    <div class="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">🥤</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Can</h3>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md text-center card-hover">
+                    <div class="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">👕</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Sweatshirt</h3>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md text-center card-hover">
+                    <div class="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">🧥</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Hoodie</h3>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="http://www.domain.com/store" class="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                    View All →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials & Social Proof -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">What Founders Say</h2>
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            JS
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">John Smith</h4>
+                            <p class="text-gray-600 text-sm">CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Conwell's daily newsletter has become essential reading. The insights are actionable and have directly impacted our growth strategy."</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            MJ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Maria Johnson</h4>
+                            <p class="text-gray-600 text-sm">Founder, InnovateLab</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"The Academy courses are incredibly practical. I've implemented strategies that increased our revenue by 40% in just 3 months."</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">10,000+</div>
+                    <div class="text-gray-600">Subscribers</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-green-600 mb-2">2,500+</div>
+                    <div class="text-gray-600">Course Completions</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-purple-600 mb-2">500+</div>
+                    <div class="text-gray-600">Advisory Sessions</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-orange-600 mb-2">95%</div>
+                    <div class="text-gray-600">Success Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Latest Insights</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-blue-400 to-blue-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">5 Growth Hacks Every Startup Should Know</h3>
+                        <p class="text-gray-600 mb-4">Discover proven strategies that helped 100+ startups scale from zero to millions...</p>
+                        <button class="text-blue-600 hover:text-blue-700 font-semibold">Read More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-green-400 to-green-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Fundraising in 2024: What's Changed</h3>
+                        <p class="text-gray-600 mb-4">Navigate the new landscape of startup funding with insights from top VCs...</p>
+                        <button class="text-blue-600 hover:text-blue-700 font-semibold">Read More →</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-purple-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Building Remote Teams That Scale</h3>
+                        <p class="text-gray-600 mb-4">Learn how successful founders manage distributed teams and maintain culture...</p>
+                        <button class="text-blue-600 hover:text-blue-700 font-semibold">Read More →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Conwell -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Conwell?</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Unlike Udemy, YouTube, or Generic Coaching</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-700"><strong>Learn from real operators</strong> - Not theoretical instructors, but founders who've built and scaled companies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-700"><strong>Built for founders</strong> - Every piece of content is designed specifically for startup builders</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-700"><strong>Bite-sized & actionable</strong> - No 10-hour courses. Get what you need in minutes, not hours</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-xl">
+                    <div class="text-center">
+                        <div class="text-6xl mb-4">🚀</div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-4">Join the Community</h4>
+                        <p class="text-gray-600">Connect with like-minded founders and get the support you need to succeed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Banner -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Build smarter. Start your founder journey today.</h2>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                    Subscribe to Newsletter
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                    Explore Academy
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                    Talk to an Expert
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200">
+        <!-- Newsletter Signup Section -->
+        <div class="bg-gray-50 py-12">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Join 10,000+ founders getting smarter every day</h3>
+                <p class="text-gray-600 mb-8">Get the 5-minute newsletter that keeps you ahead of the curve.</p>
+                <div class="max-w-md mx-auto flex">
+                    <input type="email" placeholder="Enter your email address" class="flex-1 px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-r-lg font-medium transition-colors">
+                        Subscribe
+                    </button>
+                </div>
+                <p class="text-sm text-gray-500 mt-3">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-6 gap-8">
+                    <!-- Company -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Company</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">About</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Careers</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Press</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Products</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Newsletter</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Academy</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Advisory</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Store</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Resources -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Resources</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Blog</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Guides</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Templates</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Podcast</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Support</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Help Center</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Community</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Status</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Feedback</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Legal -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Legal</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Privacy Policy</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Terms of Service</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">Cookie Policy</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm transition-colors">GDPR</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Social & Apps -->
+                    <div class="col-span-2 md:col-span-1">
+                        <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Follow Us</h4>
+                        <div class="flex space-x-3 mb-6">
+                            <a href="#" class="text-gray-400 hover:text-gray-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-gray-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-gray-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-gray-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="space-y-2">
+                            <a href="#" class="block">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40' viewBox='0 0 120 40'%3E%3Crect width='120' height='40' rx='8' fill='%23000'/%3E%3Ctext x='60' y='25' text-anchor='middle' fill='white' font-size='12' font-family='Arial'%3EApp Store%3C/text%3E%3C/svg%3E" alt="Download on App Store" class="h-10">
+                            </a>
+                            <a href="#" class="block">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40' viewBox='0 0 120 40'%3E%3Crect width='120' height='40' rx='8' fill='%23000'/%3E%3Ctext x='60' y='25' text-anchor='middle' fill='white' font-size='12' font-family='Arial'%3EGoogle Play%3C/text%3E%3C/svg%3E" alt="Get it on Google Play" class="h-10">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-200 py-6">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex items-center mb-4 md:mb-0">
+                        <div class="text-2xl font-bold text-gray-900 mr-8">Conwell</div>
+                        <p class="text-sm text-gray-500">&copy; 2024 Conwell Digital. All rights reserved.</p>
+                    </div>
+                    <div class="flex items-center space-x-6">
+                        <span class="text-sm text-gray-500">Made with ❤️ for founders</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-sm text-gray-500">🌍</span>
+                            <select class="text-sm text-gray-500 bg-transparent border-none focus:outline-none">
+                                <option>English</option>
+                                <option>Hindi</option>
+                                <option>Spanish</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple newsletter subscription functionality
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('Subscribe')) {
+                button.addEventListener('click', function() {
+                    alert('Thank you for your interest! Newsletter subscription feature coming soon.');
+                });
+            }
+        });
+
+        // Academy button functionality
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('Academy') || button.textContent.includes('Browse Courses')) {
+                button.addEventListener('click', function() {
+                    alert('Academy courses coming soon! Get ready for practical startup education.');
+                });
+            }
+        });
+
+        // Advisory button functionality
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('Advisory') || button.textContent.includes('Book')) {
+                button.addEventListener('click', function() {
+                    alert('Advisory booking system coming soon! Connect with experienced operators.');
+                });
+            }
+        });
+
+        // Mobile menu toggle (basic implementation)
+        const mobileMenuButton = document.createElement('button');
+        mobileMenuButton.className = 'md:hidden text-gray-700 hover:text-blue-600';
+        mobileMenuButton.innerHTML = '☰';
+        document.querySelector('nav .flex').appendChild(mobileMenuButton);
+
+        mobileMenuButton.addEventListener('click', function() {
+            alert('Mobile menu functionality - navigate to different sections');
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'966e02dec5c58596',t:'MTc1MzgwNjczNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
